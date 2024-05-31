@@ -14,6 +14,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+mongoose.connect("mongodb+srv://Reetesh:Password@bookstore.re1qzkv.mongodb.net/Bookstore?retryWrites=true&w=majority&appName=Bookstore")
+
 const PORT = process.env.PORT || 4000;
 const URI = process.env.MongoDBURI;
 
