@@ -19,7 +19,7 @@ function Footer() {
       </div>
     </nav> 
     <aside>
-      <p>Copyright © 2024 - All right reserved by BookStore</p>
+     <p>Copyright © 2024 - All right reserved by Book<span className=" text-l  cursor-pointer text-pink-500">Store</span></p>
     </aside>
   </footer></div>
   )
