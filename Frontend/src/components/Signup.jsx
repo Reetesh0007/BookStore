@@ -8,7 +8,7 @@ import toast from "react-hot-toast";
 
 function Signup() {
  const location=useLocation();
- const naviagte=useNavigate();
+ const navigate=useNavigate();
  const from=location.state?.from?.pathname || "/"
 
   const onSubmit = async (data) => {
@@ -48,8 +48,8 @@ function Signup() {
   <div className="modal-box">
     <form onSubmit={handleSubmit(onSubmit)}  method="dialog">
       <Link to="/" className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</Link>
-  
-    <h3 className="font-bold text-lg">Signup</h3>
+    <h2 className='text-xl font-bold text-center'>Welcome!</h2>
+    <h3 className="text-lg text-center">Signup</h3>
 
     <div className='mt-4 space-y-2'>
     <span>Name</span>

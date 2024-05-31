@@ -57,8 +57,8 @@ function Login() {
               onClick={()=>document.getElementById("my_modal_3").close()}
               >
                 ✕</Link>
-
-              <h3 className="font-bold text-lg">Login</h3>
+                <h2 className='text-xl font-bold text-center'>Welcome Back!</h2>
+              <h3 className=" text-lg text-center">Login to your account</h3>
               <div className='mt-4 space-y-2'>
                 <span>Email</span>
                 <br />

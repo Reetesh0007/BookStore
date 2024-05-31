@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-
+import list from "../../public/list.json";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -27,6 +27,7 @@ const getBook=async()=>{
 };
 getBook();
   },[]);
+ 
  
     
     var settings = {
@@ -71,8 +72,7 @@ getBook();
     <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
         <div>
         <h1 className='font-semibold text-xl pb-2'>Free Offered Courses</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro iusto fugiat perspiciatis, odio,
-         voluptates a vel quas enim possimus similique alias aliquid praesentium non nihil ut officia explicabo, harum inventore?
+        <p>BookStore offers a selection of free eBooks, including classics and bestsellers. They have a dedicated section for free popular classics and a list of top free bestsellers.
          </p>
         </div>
 

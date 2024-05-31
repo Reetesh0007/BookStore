@@ -25,9 +25,15 @@ getBook();
       <h1 className='text-2xl md:4xl'>
         We're delighted to have you <span className='text-pink-500'>Here! :)</span>
         </h1>
-        <p className='mt-12 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quia maiores temporibus 
-          vitae itaque recusandae facilis sunt iste? Possimus nobis ipsam eos neque cum reiciendis
-          quas, numquam laborum nemo accusantium.
+        <p className='mt-12 '>
+          
+Academic textbooks for primary, secondary, and tertiary education. Professional and technical reference books.<br/>
+
+Classic and contemporary works of fiction and non-fiction. Anthologies and collections of poetry, short stories, and essays.<br/>
+
+Supplemental study materials for exam preparation. Practice workbooks for subjects like math, science, and languages.<br/>
+
+Teacher’s editions and lesson plan books. Educational software and interactive learning tools.
           </p>
        <Link to="/">
           <button className=' mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration 300'>
