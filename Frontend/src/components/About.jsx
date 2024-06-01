@@ -61,28 +61,28 @@ function About() {
 {/* --------------------------------------FAQs-------------------------------------------- */}
 <div className="collapse collapse-arrow bg-base-200 mt-2 mb-5 ">
   <input type="radio" name="my-accordion-2" defaultChecked /> 
-  <div className="collapse-title text-xl font-medium">
+  <div className="collapse-title text-xl font-medium  bg-base-100 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
   What types of books do you carry?
   </div>
-  <div className="collapse-content"> 
+  <div className="collapse-content  bg-base-100 shadow-xl  dark:bg-slate-900 dark:text-white dark:border"> 
     <p>We offer a wide range of books including fiction, non-fiction, academic texts, children’s books, and more.</p>
   </div>
 
 <div className="collapse collapse-arrow bg-base-200">
   <input type="radio" name="my-accordion-2" /> 
-  <div className="collapse-title text-xl font-medium">
+  <div className="collapse-title text-xl font-medium  bg-base-100 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
   How can I contact the bookstore for more questions?
   </div>
-  <div className="collapse-content"> 
+  <div className="collapse-content  bg-base-100 shadow-xl  dark:bg-slate-900 dark:text-white dark:border"> 
     <p>You can reach us via phone or  email. </p>
   </div>
 </div>
 <div className="collapse collapse-arrow bg-base-200">
   <input type="radio" name="my-accordion-2" /> 
-  <div className="collapse-title text-xl font-medium">
+  <div className="collapse-title text-xl font-medium  bg-base-100 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
   How can I find a specific book in your store?
   </div>
-  <div className="collapse-content"> 
+  <div className="collapse-content  bg-base-100 shadow-xl  dark:bg-slate-900 dark:text-white dark:border"> 
     <p>Our books are organized by genre and author. You can also ask any of our staff for assistance or use our in-store search kiosk</p>
   </div>
 </div>
