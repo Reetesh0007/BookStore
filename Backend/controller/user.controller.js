@@ -27,6 +27,8 @@ export const signup=async(req,res)=>{
     }
 };
 
+// ------------------------------------------------------------------------------------------
+
 export const login=async(req,res)=>{
     try{
         const{email,password}=req.body;
@@ -46,4 +48,33 @@ export const login=async(req,res)=>{
         console.log("Error:"+ error.message)
         res.status(500).json({message:"Internal server error"})
     }
-}
+};
+
+// ---------------------------------------------------------------------------------------------------------------------------------
+
+export const contact = async (req, res) => {
+  try {
+    const { Name, Email, Message } = req.body; // Correct field names
+
+    // Validate input (e.g., check if required fields are provided)
+
+    // Process the form data (e.g., send an email, save to a database, etc.)
+    // Replace the following placeholder logic with your actual implementation
+    // For example, you can send an email using a third-party service or save the data to a database
+    // ...
+
+    // Assuming successful processing, return an appropriate response
+    res.status(200).json({
+      message: "Form submitted successfully",
+      user: {
+        Name,
+        Email,
+        Message,
+      },
+    });
+  } catch (error) {
+    console.error("Error:", error.message);
+    res.status(500).json({ message: "Internal server error" });
+  }
+};
+
