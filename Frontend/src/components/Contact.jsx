@@ -58,7 +58,7 @@ import Footer from "../components/Footer";
      <Navbar/>
       <div className='flex h-screen item-center justify-center'>
    <div className="w-[600px] ">
-  <div className="modal-box h-auto min-h-[670px]">
+  <div className="modal-box h-auto min-h-[670px] dark:bg-slate-900 dark:text-white">
     <form onSubmit={handleSubmit(onSubmit)}  method="dialog">
       
   
