@@ -40,7 +40,7 @@ This project is a full-stack web application for a bookstore, built with the MER
 - Special thanks to my friend and faculty for inspiration and guidance.
 
 ## Authors
-- **Reetesh Kumar** - *Initial work* - [YourGitHubProfile]
+- **Reetesh Kumar** - *Initial work* - [Profile](https://reetesh0007.github.io/Portfolio/)
 
 ## Contact
 For any queries, please reach out to hrieteshaarya1418@gmail.com.
